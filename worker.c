@@ -12,7 +12,9 @@ pid_t worker_execute_core(arg_inventory_t *arginv)
 	/* int p[2]; Set of pipes' descriptors */
 	ptree_t *ptree;
 	/**
-	 * int fd_input = 0; Input file descriptor; soon to be changed with
+	 * int fd_input = 0;
+	 * Input file descriptor;
+	 * soon to be changed with
 	 * something if there is < command somewhere
 	 */
 
